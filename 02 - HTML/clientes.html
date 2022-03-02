@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de clientes</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <img src="./img/Logo.jpg" alt="Logo de Pastelería Pastecial" width="100px">
+    <h1>Pastelería Pastecial</h1>
+    <h2>MENÚ</h2>
+    <h3>Sabores de los pasteles</h3>
+    <ul>
+        <li>CHOCOLATE............$99.99</li>
+        <li>VAINILLA.................$99.99</li>
+        <li>FRESA.......................$99.99</li>
+        <li>MANGO....................$99.99</li>
+        <li>NUEZ.......................$109.99</li>
+    </ul>
+
+    <h3>Adornos para tu pastel</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Feliz cumpleaños</td>
+            <td>Letras que dicen "FELIZ CUMPLEAÑOS"</td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>Tu nombre</td>
+            <td>Tu nombre escrito sobre el pastel</td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>Chispitas</td>
+            <td>Chispitas de colores en todo el pastel</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Arcoíris</td>
+            <td>Un arcoíris del tamaño del ancho del pastel</td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>Pajaritos</td>
+            <td>Un par de pajaritos dandose un piquito</td>
+            <td>$50.00</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr>
+    <br><br>
+
+    <h2>Haz tu pedido :D</h2>
+
+    <form action="./clientes.html">
+
+        <!--Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y 
+            adornos -->
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
+        <br><br>
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="phone" id="phone" placeholder="Ingrese su número teléfonico">
+        <br><br>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese su correo electrónico">
+        <br><br>
+        <textarea name="description" id="description" cols="30" rows="10"
+            placeholder="Descripción general del pastel"></textarea>
+
+
+        <h4>Seleccione el o los sabores para su pastel</h4>
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="chocolate">Chocolate</label><br>
+        <input type="checkbox" name="fresa" id="fresa">
+        <label for="fresa">Fresa</label><br>
+        <input type="checkbox" name="mango" id="mango">
+        <label for="mango">Mango</label><br>
+        <input type="checkbox" name="nuez" id="nuez">
+        <label for="nuez">Nuez</label><br>
+
+        <h4>Selecciones el o las decoraciones para su pastel</h4>
+        <input type="checkbox" name="feliz" id="feliz">
+        <label for="feliz">Feliz cumpleaños</label><br>
+        <input type="checkbox" name="tuNombre" id="tuNombre">
+        <label for="tuNombre">Tu nombre</label><br>
+        <input type="checkbox" name="chisptas" id="chisptas">
+        <label for="chisptas">Chisptas</label><br>
+        <input type="checkbox" name="arcoiris" id="arcoiris">
+        <label for="arcoiris">Arcoíris</label><br>
+        <input type="checkbox" name="pajaritos" id="pajaritos">
+        <label for="pajaritos">Pajaritos</label><br>
+
+        <br><br>
+        <input type="reset"><br>
+        <input type="submit" value="Hacer pedido">
+
+    </form>
+
+    <hr>
+    <hr>
+
+    <footer>
+        <img src="./img/Logo.jpg" alt="Logo de Pastelería Pastecial" width="50px">
+        <h5>Pastelería Pastecial</h5>
+        <h6>Dirección: Enrique Segoviano</h6>
+        <h6>Tél: 8110431111</h6>
+        <h6>Horario de atención: Lunes a viernes de 9am a 9pm</h6>
+    </footer>
+
+    <a href="./pastelero.html"><button>Ir a la página de pastelero</button></a>
+
+</body>
+
+</html>
