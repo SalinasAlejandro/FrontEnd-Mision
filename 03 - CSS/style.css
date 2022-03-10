@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+i{
+    margin: 15px
+}
+
+footer{
+    background-color:rgba(209, 211, 241, 0.767);
+    padding: 25px 5px;
+}
+
+footer .row{
+    padding: 0px;
+}
+
+.navbarA{
+    margin-left: 25px;
+}
+.navbarB{
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+.row{
+    padding-bottom: 25px;
+}
+
+.logo{
+    max-height: 50px;
+}
+
+.buttonNow{
+    margin: 1px 25px
+}
+
+.iNow{
+    padding-top: 25px;
+}
